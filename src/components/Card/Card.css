@@ -1,0 +1,26 @@
+.card {
+    max-width: 470px;
+}
+
+.card__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 18px;
+}
+
+.card__content {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.card__content img {
+    float: left;
+    margin-right: 16px;
+}
+
+@media (max-width: 768px) {
+    .card__title {
+        text-align: center;
+    }
+}
